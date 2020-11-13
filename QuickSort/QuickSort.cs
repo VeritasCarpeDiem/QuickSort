@@ -4,16 +4,16 @@ using System.Text;
 
 namespace QuickSort
 {
-    class QuickSort //where T:IComparable<T>
+    class QuickSort<T> where T : IComparable<T>
     {
-        private static int LomutoPartition(int[] arr,int low, int high)
+        private static int LomutoPartition(T[] arr,int low, int high)
         {
-            int pivot = arr[high]; //set pivot to highest value of arr
+            int pivot = high; //set pivot to highest value of arr
             int wall = low - 1; 
 
             for ( int i = low; i < high; i++) //can't be arr.Length
             {
-                if (arr[i] < pivot)
+                if (arr[i].CompareTo(arr[pivot])<0)
                 {
                     wall++;
                     Swap(ref arr[i], ref arr[wall]);
@@ -27,15 +27,15 @@ namespace QuickSort
             Swap(ref arr[high],ref arr[wall+1]);
             return wall + 1;
         }
-        public static int[] LomutoQuickSort(int[] arr) //the return type can void b/c arrays passed bvy reference
+        public static T[] LomutoQuickSort(T[] arr) //the return type can void b/c arrays passed bvy reference
         {
             QuickSort(arr, 0, arr.Length-1);
 
             return arr;
 
-            void QuickSort(int[] arr, int low, int high) //helper function 
+            void QuickSort(T[] arr, int low, int high) //helper function 
             {
-                if (low < high)
+                if (low< high)
                 {
                     int pivot = LomutoPartition(arr, low, high);
 
@@ -46,14 +46,14 @@ namespace QuickSort
                 }
             }
         }
-        public static int[] HoareQuickSort(int[] arr)
+        public static T[] HoareQuickSort(T[] arr)
         {
             
             QuickSort(arr, 0, arr.Length - 1);
             
             return arr;
 
-            void QuickSort(int[] arr,int low, int high) //helper function 
+            void QuickSort(T[] arr,int low, int high) //helper function 
             { 
                 if (low < high)
                 {
@@ -67,9 +67,9 @@ namespace QuickSort
             }
             
         }
-        private static int HoarePartition(int[] arr, int low, int high)
+        private static int HoarePartition(T[] arr, int low, int high)
         {
-            int pivot = arr[low];
+            T pivot = arr[low];
             int leftPtr = low - 1;
             int rightPtr = high + 1;
 
@@ -92,9 +92,9 @@ namespace QuickSort
                 Swap(ref arr[leftPtr], ref arr[rightPtr]);
             }
         }
-        static void Swap(ref int num1, ref int num2)
+        static void Swap(ref T num1, ref T num2)
         {
-            int temp = num1;
+            T temp = num1;
             num1 = num2;
             num2 = temp;
         }
