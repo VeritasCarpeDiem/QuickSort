@@ -1,0 +1,13 @@
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.exe
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.deps.json
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.json
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.runtimeconfig.dev.json
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.dll
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\bin\Debug\netcoreapp3.1\QuickSort.pdb
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csprojAssemblyReference.cache
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfoInputs.cache
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.AssemblyInfo.cs
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.csproj.CoreCompileInputs.cache
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.dll
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.pdb
+\\GMRDC1\Folder Redirection\jin.kim\Desktop\QuickSort\QuickSort\obj\Debug\netcoreapp3.1\QuickSort.genruntimeconfig.cache
